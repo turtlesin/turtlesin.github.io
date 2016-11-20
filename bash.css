@@ -1,0 +1,290 @@
+﻿body
+{
+	background-color:black;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center top; 
+	font-family:"Arial", sans-serif;
+	font-size:16px;
+	color:##07195c;
+	padding:0;
+	margin:0;
+}
+
+#logo img{
+	height:80px; 
+	width:1000px; 
+}
+
+#main 
+{ 
+	width:1000px;
+	margin:auto;
+	padding-top: 30px;
+}
+
+/*********************************Home Begin***************************************/
+
+aside{
+    width:200px;
+    float:right;
+    padding: 0px 5px 10px 20px;
+}
+
+#slideshowhome { 
+    margin: 10px auto 0 -260px; 
+    position: relative; 
+    width: 250px; 
+    height: 160px; 
+    padding: 100px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshowhome  div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+#slideshowhome  img { 
+    height:280px;
+	width:430px;
+}
+
+#slideshowhome  a:link{ 
+    text-decoration:none;
+	font-weight:bold
+}
+
+/*********************************Home end***************************************/
+
+
+/***************** Menu Begin****************************************************/
+
+#topmenu a:link 
+{
+	text-decoration:none;
+	color:#07195c;
+	font-weight:bold
+} 
+   
+
+
+ul#topmenu 
+{
+	padding:0;
+	margin:0;
+	background-color:#fbf0c7;
+	overflow:auto;
+}
+
+ul#topmenu li 
+{
+	list-style-type:none;
+	float:left;
+	line-height:30px;
+	margin: 5px 0px 10px 160px;
+	padding: 0px 35px 0px 35px;
+	border-radius: 30px;
+	background-color:#BF6530;
+    
+}
+
+#topmenu a:visited 
+{
+	color:#FFC578;
+} 
+
+
+#topmenu li:hover
+{
+	text-decoration:underline;
+	box-shadow: 5px 5px 3px #A63E00;
+} 
+
+
+/*************************Menu End****************************************/
+
+/************************Article Begin*************************************/
+article
+{
+	background:#f9eaaf;
+	padding:0;
+}
+
+article img {
+    height:350px;
+    width:530px;
+}
+
+.news img {
+    height:350px;
+    width:530px;
+	padding-left: 20px;	
+}
+
+
+article h1
+{
+	color:#07195c;
+	padding-left: 20px;
+}
+
+article h2
+{
+	color:#07195c;
+	padding-left: 20px;
+}
+
+article h4
+{
+	padding-left: 20px;
+	padding-bottom: 20px;	
+}
+
+article p
+{
+	line-height:1.4em;
+	padding-left: 20px;
+}
+
+article  a:link
+{
+	color:#07195c;
+} 
+
+article  a:visited 
+{
+	color:#FFA042;
+} 
+
+/***********show/hide***************/
+.button 
+{	
+	text-decoration:none;
+	color:#FFA042;
+	padding-left: 20px;
+}
+
+
+/************************Article End*************************************/
+
+
+/************************Gallery Begin*************************************/
+
+#slideshow img
+{
+	height:360px;
+	width:640px;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+ #prev 
+{
+	float:left;
+	margin-top:10px;
+	margin-left:400px;
+	margin-bottom:20px;
+	height:50px;
+	width:100px;
+}
+
+#next
+{
+	float:right;
+	margin-top:10px;
+	margin-right:400px;
+	margin-bottom:20px;	
+	height:50px;
+	width:100px;
+}
+
+
+#slideshow  a
+{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+} 
+
+#gallery{
+	
+	margin-top:10px;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+#gallery img {
+    height:240px;
+    width:320px; 
+	text-align:center;
+}
+
+
+#gallery img:hover {
+    height:236px;
+    width:316px;
+	border: 2px solid #FF9200; 
+
+}
+
+
+.picture{
+      display:inline-block
+     
+}
+
+#gallery h5{
+	padding-left: 20px;
+	margin-bottom:30px;
+}
+
+
+/************************Gallery End*************************************/
+
+
+
+.scrollup{
+    width:200px;
+    height:200px;
+    opacity:0.3;
+    position:fixed;
+    bottom:-100px;
+    right:-10px;
+    display:none;
+    text-indent:-9999px;
+    background: url('top.png') no-repeat;
+}
+
+/************************Footer Begin************************************/
+	
+footer
+{
+	padding:0;
+	margin:0 auto;
+	text-align: center;
+	width:1000px;
+	background-color:#fbf0c7;
+	font-family:"sans-serif",Arial;
+	font-size:12px;
+
+}
+
+/************************Footer end*************************************/
+
+@media print 
+{
+	.dontPrint 
+	{
+		display:none;
+	}
+}
